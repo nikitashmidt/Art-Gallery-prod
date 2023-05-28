@@ -1,0 +1,16 @@
+var _path;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgCloseBtn(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "currentColor"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    d: "M4.386 18.825a.546.546 0 000 .783c.22.224.552.224.773 0l6.73-6.713 6.842 6.937c.22.224.552.224.772 0a.546.546 0 000-.783l-6.84-6.937 7.171-7.16a.546.546 0 000-.784.528.528 0 00-.772 0l-7.172 7.16L4.938 4.28a.528.528 0 00-.772 0 .546.546 0 000 .783l7.062 7.049-6.842 6.713z",
+    clipRule: "evenodd"
+  })));
+}
+export default SvgCloseBtn;

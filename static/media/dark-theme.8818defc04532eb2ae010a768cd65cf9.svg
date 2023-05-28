@@ -1,0 +1,15 @@
+var _path;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgDarkTheme(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 20,
+    height: 20,
+    viewBox: "0 0 18 21",
+    fill: "currentColor",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M16.592 14.197a9.384 9.384 0 01-2.638 3.85A10.253 10.253 0 019.69 20.27a11.317 11.317 0 01-4.973.116A11.684 11.684 0 01.11 18.37c2.284.149 4.522-.39 6.388-1.538 1.867-1.149 3.264-2.847 3.99-4.847.725-2.001.74-4.2.043-6.278C9.834 3.629 8.46 1.782 6.61.433c1.685.11 3.34.59 4.829 1.403a11.317 11.317 0 013.743 3.275 10.253 10.253 0 011.85 4.44 9.384 9.384 0 01-.44 4.646z"
+  })));
+}
+export default SvgDarkTheme;
